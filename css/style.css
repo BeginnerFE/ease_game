@@ -1,0 +1,125 @@
+
+.game-conteiner {
+	max-width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.794);
+	border-radius: 10px;
+	padding-top: 20px;
+	
+}
+.title-game {
+	color: rgb(225, 225, 225);
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.game-block-element {
+	width: 800px;
+	height: 900px;
+	border: 2px solid #fff;
+	margin: 0 auto;
+	padding: 10px;
+}
+.start{
+	width: 60px;
+	height: 40px;
+	background-color: rgba(105, 150, 16, 0.532);
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.start::after{
+	content: "↓";
+	display: block;
+	font-size: 22px;
+	color: red;
+
+}
+
+
+.elemen-one{
+	width: 776px;
+	height: 40px;
+	background-color: green;
+	visibility: hidden;
+}
+.start:hover + div, .elemen-one:hover {
+	visibility: visible;
+}
+.elemen-two{
+	max-width: 30px;
+	margin-left: auto;
+	height: 150px;
+	background-color: green;
+	margin-left: auto;
+	visibility: hidden;
+}
+.elemen-one:hover + div, .elemen-two:hover {
+	visibility: visible;
+}
+.elemen-three{
+	max-width: 630px;
+	margin-left: auto;
+	height: 20px;
+	background-color: green;
+	margin-left: auto;
+	visibility: hidden;
+}
+.elemen-two:hover + div, .elemen-three:hover {
+	visibility: visible;
+}
+
+.elemen-four{
+	height: 350px;
+	background-color: green;
+	max-width: 20px;
+	margin-left: 146px;
+	visibility: hidden;
+}
+.elemen-three:hover + div, .elemen-four:hover {
+	visibility: visible;
+}
+
+
+.elemen-five{
+	height: 30px;
+	background-color: green;
+	max-width: 450px;
+	margin-left: 146px;
+	visibility: hidden;
+}
+.elemen-four:hover + div, .elemen-five:hover {
+	visibility: visible;
+}
+
+.elemen-six{
+	height: 200px;
+	background-color: green;
+	padding-top: 180px;
+	max-width: 18px;
+	margin-left: 578px;
+	visibility: hidden;
+}
+.elemen-five:hover + div, .elemen-six:hover {
+	visibility: visible;
+}
+
+.finish{
+	width: 80px;
+	height: 40px;
+	color: floralwhite;
+	background-color: rgb(181, 0, 0);
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 550px;
+	text-transform: uppercase;
+	padding-top: 12px;
+	visibility: hidden;
+}
+.elemen-six:hover + div, .finish:hover {
+	visibility: visible;
+}
